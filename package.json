@@ -1,0 +1,37 @@
+{
+  "name": "@pollon/juice-lang",
+  "version": "1.0.0",
+  "description": "Handy DSL that helps to decouple the user interaction from the business logic in a frontend application",
+  "main": "dist/pollon-juice-lang.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollon-js/juice-lang.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev:build": "rollup -c ./build/index.js",
+    "prepublish": "npm run dev:build"
+  },
+  "keywords": [
+    "juice-lang",
+    "frontend",
+    "ui",
+    "ux",
+    "utility",
+    "dsl"
+  ],
+  "author": "Francesco Lasaracina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollon-js/juice-lang/issues"
+  },
+  "homepage": "https://github.com/pollon-js/juice-lang#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
